@@ -43,6 +43,8 @@ body {
 }
 
  /* Colocando os valores ao meio da tela se a tela for pequena 90 senão... */
+ /* Quando for menor que 800px, ocupe 90vw */
+ /* Só ocupará 90vw apartir dos 800px pra baixo */
 .container{
     width: min(90vw, 800px);
     margin: auto;
